@@ -1,0 +1,6 @@
+<h1>customer show page</h1>
+
+<%= @customer.supermarket.name %>
+<%= @customer.items.each do |item| %>
+   <%= item.name %>
+<% end %>
